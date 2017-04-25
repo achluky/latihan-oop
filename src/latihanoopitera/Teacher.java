@@ -6,7 +6,7 @@ package latihanoopitera;
 public class Teacher implements Person {
     
     //Kode dosen
-    private String Kode,name,address; 
+    private String Kode_dosen,nama,alamat; 
 
     public Teacher(String name, String address, String kode) {
     }
@@ -33,11 +33,20 @@ public class Teacher implements Person {
     //Lengkapi
     //Set alamat person
     @Override
-    public void setAddress(String address) {
+    public void setAddress(String add) {
     }
   
+    //Lengkapi
+    //mendapatkan kode dosen
+    @Override
     public String getKode() {
        return null;
+    }
+    
+    //Lengkapi
+    //set kode dosen
+    @Override
+    public void setKode(String kode){
     }
 
     @Override

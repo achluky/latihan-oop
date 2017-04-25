@@ -14,4 +14,6 @@ public interface Person {
     void setName(String name);
     String getAddress();
     void setAddress(String address);
+    String getKode();
+    void setKode(String kode);
 }
